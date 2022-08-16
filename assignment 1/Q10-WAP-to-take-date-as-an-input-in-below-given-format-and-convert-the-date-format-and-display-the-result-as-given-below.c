@@ -8,7 +8,7 @@ int main()
 {
     int dd,mm,yy;
     printf("\nEnter the date in this format - \"DD/MM/YYYY\" : ");
-    scanf("%d%d%d",&dd,&mm,&yy);
+    scanf("%d/%d/%d",&dd,&mm,&yy);
     printf("Day - %d , Month - %d , Year - %d",dd,mm,yy);
     return 0;
 }

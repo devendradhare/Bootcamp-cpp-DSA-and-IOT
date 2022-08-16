@@ -9,7 +9,7 @@ int main()
 {
     int hh,mm;
     printf("\nEnter the time in this format - \"HH:MM\" : ");
-    scanf("%d%d",&hh,&mm);
+    scanf("%d:%d",&hh,&mm);
     printf("\n%d Hour and %d Minute\n",hh,mm);
     return 0;
 }
