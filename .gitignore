@@ -1,6 +1,7 @@
 *.exe
 *.jpg
 *.png
+*.vscode/
 assignmentTital.c
 doubt.txt
 
