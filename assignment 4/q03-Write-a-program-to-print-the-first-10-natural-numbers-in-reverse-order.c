@@ -1,4 +1,4 @@
-// 3. Write a program to print the first 10 natural numbers in reverse order
+//  3. Write a program to print the first 10 natural numbers in reverse order
 #include <stdio.h>
 int main()
 {
