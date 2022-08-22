@@ -1,5 +1,5 @@
-// 15. Write a program to check whether a given number is positive, negative or zero
-#include<stdio.h>
+//  15. Write a program to check whether a given number is positive, negative or zero
+#include <stdio.h>
 int main()
 {
     int n;
