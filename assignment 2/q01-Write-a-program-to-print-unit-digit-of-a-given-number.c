@@ -1,6 +1,6 @@
-// 1. Write a program to print unit digit of a given number
+//  1. Write a program to print unit digit of a given number
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int n;

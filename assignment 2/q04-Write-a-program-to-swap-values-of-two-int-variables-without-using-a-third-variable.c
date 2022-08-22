@@ -1,5 +1,5 @@
-// Write a program to swap values of two int variables without using a third variable
-#include<stdio.h>
+//  Write a program to swap values of two int variables without using a third variable
+#include <stdio.h>
 int main()
 {
     int a = 10, b = 20;

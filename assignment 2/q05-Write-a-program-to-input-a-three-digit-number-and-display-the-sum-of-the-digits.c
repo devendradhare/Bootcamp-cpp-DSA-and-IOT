@@ -1,5 +1,5 @@
-// Write a program to input a three-digit number and display the sum of the digits
-#include<stdio.h>
+//  Write a program to input a three-digit number and display the sum of the digits
+#include <stdio.h>
 int main()
 {
     int n,sum = 0;
