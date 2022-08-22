@@ -1,9 +1,9 @@
-//           pattern 13
-// draw the following patterns
-// 1234321
-// 123 321
-// 12   21
-// 1     1
+//            pattern 13
+//  draw the following patterns
+//  1234321
+//  123 321
+//  12   21
+//  1     1
 
 #include <stdio.h>
 int main()

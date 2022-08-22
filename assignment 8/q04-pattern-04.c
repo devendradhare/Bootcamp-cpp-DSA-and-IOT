@@ -1,12 +1,12 @@
-//          pattern 04
-// draw the following patterns
-// *****
-//  ****
-//   ***
-//    **
-//     *
+//           pattern 04
+//  draw the following patterns
+//  *****
+//   ****
+//    ***
+//     **
+//      *
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int n, i, j;

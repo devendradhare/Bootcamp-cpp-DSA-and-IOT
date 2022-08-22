@@ -1,10 +1,10 @@
-//          pattern 08
-// draw the following patterns
-//     1
-//    121
-//   12321
-//  1234321
-#include<stdio.h>
+//           pattern 08
+//  draw the following patterns
+//      1
+//     121
+//    12321
+//   1234321
+#include <stdio.h>
 int main()
 {
     int n, i, j;

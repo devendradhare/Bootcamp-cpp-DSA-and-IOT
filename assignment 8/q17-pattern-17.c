@@ -1,10 +1,10 @@
-//           pattern 17
-// draw the following patterns
-//     *
-//    **
-//   * *
-//  *  *
-// *****
+//            pattern 17
+//  draw the following patterns
+//      *
+//     **
+//    * *
+//   *  *
+//  *****
 #include <stdio.h>
 int main()
 {

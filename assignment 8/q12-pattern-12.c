@@ -1,11 +1,11 @@
-//          pattern 12
-// draw the following patterns
-//  ABCDCBA
-//   ABCBA
-//    ABA
-//     A
+//           pattern 12
+//  draw the following patterns
+//   ABCDCBA
+//    ABCBA
+//     ABA
+//      A
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int n, i, j;
