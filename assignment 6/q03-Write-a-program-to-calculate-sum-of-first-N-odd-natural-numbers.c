@@ -1,5 +1,5 @@
-// 3. Write a program to calculate sum of first N odd natural numbers
-#include<stdio.h>
+//  3. Write a program to calculate sum of first N odd natural numbers
+#include <stdio.h>
 int main()
 {
     int i,n,sum = 0;

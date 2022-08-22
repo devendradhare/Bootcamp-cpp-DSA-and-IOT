@@ -1,5 +1,5 @@
-// 6. Write a program to calculate factorial of a number
-#include<stdio.h>
+//  6. Write a program to calculate factorial of a number
+#include <stdio.h>
 int main()
 {
     int i,n,facto = 1;

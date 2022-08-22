@@ -1,5 +1,5 @@
-// 4. Write a program to calculate sum of squares of first N natural numbers
-#include<stdio.h>
+//  4. Write a program to calculate sum of squares of first N natural numbers
+#include <stdio.h>
 int main()
 {
     int i,n,sum = 0;
