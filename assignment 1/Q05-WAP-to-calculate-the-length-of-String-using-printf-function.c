@@ -1,5 +1,5 @@
-// WAP to calculate the length of String using printf function
-#include<stdio.h>
+//  WAP to calculate the length of String using printf function
+#include <stdio.h>
 #include<conio.h>
 int main()
 {

@@ -1,5 +1,5 @@
-// 08.  WAP to print “\n” on the screen
-#include<stdio.h>
+//  08.  WAP to print “\n” on the screen
+#include <stdio.h>
 int main()
 {
     printf("\\n");
