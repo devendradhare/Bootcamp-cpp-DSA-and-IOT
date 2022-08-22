@@ -1,5 +1,5 @@
-// 1. Write a program to print MySirG N times on the screen
-#include<stdio.h>
+//  1. Write a program to print MySirG N times on the screen
+#include <stdio.h>
 int main()
 {
     int i, n;
