@@ -2,6 +2,7 @@
 *.jpg
 *.png
 *.vscode/
+*html
 assignmentTital.c
 doubt.txt
 
