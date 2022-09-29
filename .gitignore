@@ -4,14 +4,16 @@
 *.vscode/
 *html
 assignmentTital.c
+assignmentTital.cpp
 doubt.txt
 tempCodeRunnerFile.c
+tempCodeRunnerFile.cpp
 
 # folders
-/project
+# /projects
 /notes
 /zzzz
 *.gitignore
 # this qustions is not done yet
 # assignment 01
-# Q05-WAP-to-calculate-the-length-of-String-using-printf-function.c 
+# Q05-WAP-to-calculate-the-length-of-String-using-printf-function.c done👍
