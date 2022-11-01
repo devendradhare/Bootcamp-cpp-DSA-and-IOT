@@ -25,18 +25,9 @@ public:
         h = hour;
         m = minute;
     }
-    int get_hour()
-    {
-        return h;
-    }
-    int get_minute()
-    {
-        return m;
-    }
-    void display()
-    {
-        cout << "\nhour = " << h << "\nminute = " << m;
-    }
+    int get_hour() { return h; }
+    int get_minute() { return m; }
+    void display() { cout << "\nhour = " << h << "\nminute = " << m; }
 };
 class Minute
 {
@@ -47,7 +38,7 @@ public:
     Minute() {}
     Minute(Time t)
     {
-        m = t.get_hour() * 60 + 60;
+        m = t.get_hour() * 60 + t.get_minute();
     }
     void display()
     {
@@ -55,8 +46,7 @@ public:
     }
 };
 
-int
-main()
+int main()
 {
     Time t1(2, 30);
     t1.display();
