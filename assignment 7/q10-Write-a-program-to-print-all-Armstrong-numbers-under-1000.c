@@ -4,7 +4,7 @@ int main()
 {
     int j, i, tmp, count = 0, rmd, ghat = 1, armstrong = 0;
     printf("\n\nprint all Armstrong numbers under 1000\n");
-    for (j = 1; j <= 1000; j++)
+    for (j = 1; j <= 99999999; j++)
     {
         tmp = j;
         while (tmp > 0)
