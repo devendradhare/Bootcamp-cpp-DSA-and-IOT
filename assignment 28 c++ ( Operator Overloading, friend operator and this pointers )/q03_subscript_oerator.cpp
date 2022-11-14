@@ -5,25 +5,24 @@ using namespace std;
 class Array
 {
 private:
-    int *p = (int *)malloc(1);
-    int s = 0;
+    int *p;
+    int size = 0;
 
 public:
     Array() {}
-    Array(int size)
+    Array(int array_size)
     {
         // cout << "\npc called";
-        free(p);
-        p = (int *)malloc(size * sizeof(int));
-        s = size;
+        p = (int *)malloc(array_size * sizeof(int));
+        size = array_size;
     }
 
     int operator[](int i)
     {
-        // cout << "\n[] operator called";
-        if(i > s)
+        cout << "\n[] operator called";
+        if (i > size)
         {
-            cout<<"\nILLEGAL MEMEORY ACCESS\n";
+            cout << "\nILLEGAL MEMEORY ACCESS\n";
             exit(0);
         }
         return p[i];
@@ -32,7 +31,7 @@ public:
     void setArray()
     {
         int i;
-        for (i = 0; i < s; i++)
+        for (i = 0; i < size; i++)
         {
             cin >> p[i];
         }
@@ -41,7 +40,7 @@ public:
 };
 ostream &operator<<(ostream &print, Array &arr)
 {
-    for (int i = 0; i < arr.s; i++)
+    for (int i = 0; i < arr.size; i++)
     {
         cout << arr.p[i] << " ";
     }
@@ -51,7 +50,7 @@ ostream &operator<<(ostream &print, Array &arr)
 int main()
 {
     Array arr(10);
-    cout<<"\n\nenter 10 numbers in arr[10] : ";
+    cout << "\n\nenter 10 numbers in arr[10] : ";
     arr.setArray();
     cout<<"\n"<<arr[12];
     return 0;
