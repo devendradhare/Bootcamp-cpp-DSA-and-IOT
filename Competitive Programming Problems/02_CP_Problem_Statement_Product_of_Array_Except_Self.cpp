@@ -25,7 +25,7 @@ int main()
     }
     for (int i = 0; i < 4; i++)
     {
-        cout << ans[i]<<" ";
+        cout << ans[i] << " ";
     }
     return 0;
 }
